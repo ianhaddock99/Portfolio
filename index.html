@@ -138,7 +138,7 @@
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light mr-3 mb-4" href="./assets/IanHDCResume.docx" download="IanHDCResume">Download My Resume</a>
+                    <a class="btn btn-xl btn-outline-light mr-3 mb-4" data-toggle="modal" data-target="#resumeModal">Download My Resume</a>
                     <a class="btn btn-xl btn-outline-light mr-3 mb-4" href="https://github.com/ianhaddock99" target="_blank">GitHub</a>
                     <a class="btn btn-xl btn-outline-light mb-4" href="https://www.linkedin.com/in/ianhaddock99/" target="_blank">Linkedin</a>
                 </div>
@@ -445,6 +445,38 @@
                 </div>
             </div>
         </div>
+
+        <div class="portfolio-modal modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Resume</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/wholepage.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Across this recipe is an app that allows the user to search for meals that will bring back information including recipe, ingredient and nutritional information. There is also a map feature which allows you to search for the nearest grocery to you in the greater Denver area and a shopping list to save any ingredients you might need.</p>
+                                    <a href="https://loving-hugle-ae78b2.netlify.app" target="_blank"><button class="btn btn-primary">Click to View Website</button></a>
+                                    <a href="https://github.com/ianhaddock99/Project-Front-End" target="_blank"><button class="btn btn-primary">Github Repository</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -457,3 +489,6 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
+
+
