@@ -10242,3 +10242,8 @@ form .row:first-child .floating-label-form-group {
 figure{
   text-align: center;
 }
+
+#bull {
+  list-style-type: none; /* Remove bullets */
+  font-size: large
+}
